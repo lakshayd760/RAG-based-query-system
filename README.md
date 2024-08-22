@@ -43,3 +43,25 @@ Welcome to the **RAG-based Document Search and Query** project! This Python appl
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/lakshayd760/rag-document-search-query.git
+```
+### 2. Create and Activate a Virtual Environment(Recommneded)
+```bash
+python -m venv venv
+source venv/Scripts/activate
+```
+### 3. Install the Required Packages
+```bash
+pip install -r requirements.txt
+```
+### 4. Run the Application
+```bash
+python main.py
+```
+### 5. Access the Interface
+Open your web browser and navigate to 'https://127.0.0.1:7860' to access the Gradio interface.
+
+## 🛠️ Dependencies
+- ** 'Gradio'
+- ** 'langchain'
+- ** 'validators'
+- ** 'ollama'
